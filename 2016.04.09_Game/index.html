@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Game!</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #eee;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        #gamecontainer {
+        }
+        #score {
+            font-size: 2em;
+            font-weight: bold;
+            color: #F2F26F;
+        }
+        
+        #score2 {
+            font-size: 2em;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body onload="fwSetup();">
+    <div id="gamecontainer"></div>
+    <div id="score">0</div>
+    <div id="score2">0</div>
+</body>
+<script src="pixi.min.js"></script>
+<script src="helper.js"></script>
+<script src="player.js"></script>
+<script src="monster.js"></script>
+<script src="game.js"></script>
+</html>
